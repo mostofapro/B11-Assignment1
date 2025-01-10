@@ -1,4 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.fira-sans-font {
+  font-family: "Fira Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 *{
   margin: 0;
   padding: 0;
+}
+
+/* Header Navigation Style */
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 160px;
+}
+
+.nav-heading{
+  font-size: 32px;
+  font-weight: bold;
+  color: #0E0E0E;
+}
+
+.nav-btn{
+  padding: 15px 30px;
+  border: 1px solid #006a50;
+  border-radius: 8px;
+  color: #006A50;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-btn:hover{
+  background-color: white;
+}
+
+/* Header Banner Styles */
+
+#banner{
+  background-color: #C6E4D6;
+  margin: 0 160px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-container{
+  padding: 100px 80px;
+}
+
+.banner-image{
+  width: 475px;
+}
+
+.banner-subheading{
+  font-size: 20px;
+  font-weight: 500;
+  color: #0E0E0E80;
+  margin-bottom: 15px;
+}
+
+.banner-title{
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+  margin-bottom: 20px;
+}
+
+.banner-btn{
+  padding: 17px 34px;
+  background-color: #006A50;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.banner-btn:hover{
+  background: #069743;
 }
