@@ -83,7 +83,7 @@
 }
 
 .banner-btn:hover{
-  background: #069743;
+  background: #02a27a;
 }
 /* Shared Styles */
 
@@ -101,8 +101,7 @@
   font-weight: 400;
   margin-bottom: 32px;
 }
-/* Main Section Style */
-
+/* Main Area */
 /* Pillar Section */
 
 .section-title{
@@ -138,7 +137,7 @@
   font-size: 16px;
 }
 
-/* The vision Section Style */
+/* The vision Area Style */
 .vision-items{
   display: flex;
   gap: 24px;
@@ -217,6 +216,10 @@
   border-radius: 16px;
   padding: 48px 24px;
   box-shadow: 0px 6px 50px 0px #d0ceceb3;
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position-y: 20px;
+  background-position-x: 25px;
 }
 
 .bio-description{
@@ -224,9 +227,6 @@
   font-weight: 400;
   color: #0E0E0ECC;
   margin-bottom: 15px;
-  background-image: url(../assets/quote-bg.png);
-  background-repeat: no-repeat;
-  background-position: top left;
 }
 
 .bio-title{
@@ -326,7 +326,7 @@
 }
 
 .news-details > button:hover{
-  background-color: #04b387;
+  background-color: #02a27a;
 }
 
 /* Donate Area Style */
