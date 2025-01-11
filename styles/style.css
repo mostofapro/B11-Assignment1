@@ -50,9 +50,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.banner-container{
   padding: 100px 80px;
 }
 
@@ -110,7 +107,7 @@
 
 .pillar-item{
   padding: 18px;
-  box-shadow: 0px 6px 50px 0px rgba(208, 206, 206, 0.7);
+  box-shadow: 0px 6px 50px 0px #d0ceceb3;
   border: 1px solid #0e0e0e26;
   border-radius: 16px;
 }
@@ -209,4 +206,68 @@
 }
 .item-list3 > button:hover{
   background-color: #ac7d10;
+}
+
+/* Bio Section Style */
+.personal-bio{
+  border: 1px solid #0e0e0e26;
+  border-radius: 16px;
+  padding: 48px 24px;
+  box-shadow: 0px 6px 50px 0px #d0ceceb3;
+}
+
+.bio-description{
+  font-size: 16px;
+  font-weight: 400;
+  color: #0E0E0ECC;
+  margin-bottom: 15px;
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.bio-title{
+  font-size: 20px;
+  color: #0E0E0ECC;
+}
+
+.bio-subheading{
+  font-size: 14px;
+  font-weight: 400;
+  color: #0E0E0E99;
+}
+
+/* Opinion Table style */
+.opinion-table{
+  padding: 32px;
+  box-shadow: 0px 6px 50px 0px #d0ceceb3;
+  border-radius: 16px;
+  border-collapse: collapse;
+}
+
+.opinion-table th {
+  background-color: #c6e4d6;
+  padding: 24px;
+  text-align: left;
+  font-size: 20px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  color: #0E0E0E;
+}
+.opinion-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0E0E0E;
+}
+
+.opinion-table select {
+  background-color: #c6e4d6;
+  padding: 10px 14px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  color: #0E0E0E;
+  cursor: pointer;
+  font-weight: 600;
 }
