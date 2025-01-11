@@ -97,7 +97,7 @@
 
 /* Pillar Section */
 
-.pillar-title{
+.section-title{
   color: #0E0E0E;
   font-size: 40px;
   margin: 32px 0;
@@ -128,4 +128,85 @@
 .pillar-item-description{
   color: #0E0E0EB3;
   font-size: 16px;
+}
+
+/* The vision Section Style */
+
+.vision-description{
+  color: #0E0E0EB3;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.vision-items{
+  display: flex;
+  gap: 24px;
+}
+
+.vision-img{
+  margin-bottom: 15px;
+}
+
+.vision-item-title{
+  color: #0E0E0ECC;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.vision-item-description{
+  color: #0E0E0EB3;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.item-list1, .item-list2, .item-list3{
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.item-list1{
+  background-color: #5490F533;
+}
+
+.item-list2{
+  background-color: #C6E4D6;
+}
+
+.item-list3{
+  background-color: #F7EBCF;
+}
+
+/* Vission Section Button */
+.item-list1 > button,
+.item-list2 > button,
+.item-list3 > button{
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.item-list1 > button{
+  background-color: #5490F5;
+}
+.item-list1 > button:hover{
+  background-color:#6899ee
+}
+
+.item-list2 > button{
+  background-color: #09A15C;
+}
+.item-list2 > button:hover{
+  background-color: #19c175;
+}
+
+.item-list3 > button{
+  background-color: #FFC239;
+}
+.item-list3 > button:hover{
+  background-color: #ac7d10;
 }
