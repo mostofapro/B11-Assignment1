@@ -93,7 +93,8 @@
 
 .vision-description,
 .news-main-description,
-.donate-area-description
+.donate-area-description,
+.subscribe-description
 {
   color: #0E0E0EB3;
   font-size: 16px;
@@ -177,7 +178,7 @@
   background-color: #F7EBCF;
 }
 
-/* Vission Section Button */
+/* Vission Area Button Style */
 .item-list1 > button,
 .item-list2 > button,
 .item-list3 > button{
@@ -210,7 +211,7 @@
   background-color: #ac7d10;
 }
 
-/* Bio Section Style */
+/* Bio Area Style */
 .personal-bio{
   border: 1px solid #0e0e0e26;
   border-radius: 16px;
@@ -239,7 +240,7 @@
   color: #0E0E0E99;
 }
 
-/* Opinion Table style */
+/* Opinion Table Area Style */
 .opinion-table{
   padding: 32px;
   box-shadow: 0px 6px 50px 0px #d0ceceb3;
@@ -273,7 +274,7 @@
   cursor: pointer;
   font-weight: 600;
 }
-/* News Section Style */
+/* News Area Style */
 .new-sub-section{
   display: flex;
   justify-content: space-between;
@@ -351,7 +352,7 @@
 }
 
 .donate-input{
-  width: 100%;
+  width: 70%;
   padding: 20px 40px;
   border: 1px solid #0e0e0e26;
   border-radius: 8px;
@@ -377,4 +378,63 @@
   font-weight: 500;
   color: #ffffff;
   cursor: pointer;
+}
+
+.donate-btn:hover{
+  background: #02a27a;
+}
+
+/* Subscription Area Style */
+.subscribe-area{
+  background-color: #C6E4D6;
+  border-radius: 24px;
+  padding: 80px 100px;
+  text-align: center;
+}
+
+.sub-area-sub-heading{
+  font-size: 12px;
+  font-weight: 400;
+  color: #0E0E0EB3;
+  margin: 24px 0;
+}
+
+.form-section{
+  display: flex;
+  justify-content: center;
+}
+.form-section > input{
+  width: 60%;
+  padding: 18px 40px;
+  border-radius: 8px 0px 0px 8px;
+  border: none;
+  color: #0E0E0E;
+}
+
+.form-section > button{
+  padding: 18px 30px;
+  border-radius: 0px 8px 8px 0px;
+  border: 1px solid #ddd;
+  color: #ffffff;
+  background-color: #006A50;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-section > button:hover{
+  background-color: #02a27a;
+}
+
+/* Footer Area Style */
+.footer-area{
+  padding: 50px 160px;
+  text-align: center;
+}
+.footer-area > h4{
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+.footer-area > a{
+  margin-right: 10px;
 }
